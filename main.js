@@ -1008,6 +1008,7 @@ const stringsToNumbs = (numbers) => {
 
 console.log(stringsToNumbs(strNums));
 
+// With the same numbers, find the sum of the even values
 const sumEvens = stringsToNumbs(strNums)
 	.filter((x) => x % 2 === 0)
 	.reduce((a, c) => a + c);
